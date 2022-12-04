@@ -4,10 +4,10 @@
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
 
-Console.WriteLine("Введите первое натуральное число");
+Console.WriteLine("Введите первое положительное число"); 
 int m = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите второе натуральное число");
+Console.WriteLine("Введите второе положительное число");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int FunctionAkkerman(int m, int n)
